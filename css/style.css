@@ -391,8 +391,8 @@ a:focus {
 
 .about_section .detail-box p {
   color: #fff;
-  margin-top: 10px;
-  margin-bottom: 35px;
+  margin-top: 15px;
+  margin-bottom: 30px;
   text-align: justify;
 }
 
@@ -1038,6 +1038,12 @@ a:focus {
 #gallery2 {
   height: 4200px;
 }
+#gallery3 {
+  height: 3000px;
+}
+#gallery4 {
+  height: 1800px;
+}
 @media (max-width: 768px) {
   .gallery {
     display: flex;
@@ -1047,7 +1053,13 @@ a:focus {
     z-index: 10;
   }
   #gallery2 {
-    height: 6200px;
+    height: 4000px;
+  }
+  #gallery3 {
+    height: 5000px;
+  }
+  #gallery4 {
+    height: 5100px;
   }
   .gallery > div {
     width: 58%;
@@ -1118,7 +1130,7 @@ a:focus {
 }
 .gallery .size-12 {
   grid-column: span 4;
-  grid-row: span 2;
+  grid-row: span 4;
   z-index: 10;
 }
 .gallery .size-13 {
@@ -1134,6 +1146,36 @@ a:focus {
 .gallery .size-15 {
   grid-column: span 4;
   grid-row: span 3;
+  z-index: 10;
+}
+.gallery .size-16 {
+  grid-column: span 6;
+  grid-row: span 2;
+  z-index: 10;
+}
+.gallery .size-17 {
+  grid-column: span 6;
+  grid-row: span 1;
+  z-index: 10;
+}
+.gallery .size-18 {
+  grid-column: span 6;
+  grid-row: span 3;
+  z-index: 10;
+}
+.gallery .size-19 {
+  grid-column: span 12;
+  grid-row: span 1;
+  z-index: 10;
+}
+.gallery .size-20 {
+  grid-column: span 2;
+  grid-row: span 5;
+  z-index: 10;
+}
+.gallery .size-21 {
+  grid-column: span 8;
+  grid-row: span 1;
   z-index: 10;
 }
 .gallery > div > a {
@@ -1157,6 +1199,9 @@ a:focus {
   z-index: 10;
   filter: grayscale(1);
   object-fit: cover;
+}
+#gallery4 > div > img {
+  filter: grayscale(0);
 }
 .gallery > div:hover img {
   filter: blur(1px);
