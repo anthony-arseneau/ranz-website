@@ -1036,13 +1036,19 @@ a:focus {
   margin-bottom: 100px;
 }
 #gallery2 {
-  height: 4200px;
+  height: 4600px;
 }
 #gallery3 {
   height: 3000px;
 }
 #gallery4 {
   height: 1800px;
+}
+#gallery5 {
+  height: 3000px;
+}
+#gallery6 {
+  height: 5000px;
 }
 @media (max-width: 768px) {
   .gallery {
@@ -1060,6 +1066,12 @@ a:focus {
   }
   #gallery4 {
     height: 5100px;
+  }
+  #gallery5 {
+    height: 5100px;
+  }
+  #gallery6 {
+    height: 5000px;
   }
   .gallery > div {
     width: 58%;
@@ -1178,6 +1190,26 @@ a:focus {
   grid-row: span 1;
   z-index: 10;
 }
+.gallery .size-22 {
+  grid-column: span 9;
+  grid-row: span 4;
+  z-index: 10;
+}
+.gallery .size-23 {
+  grid-column: span 12;
+  grid-row: span 50;
+  z-index: 10;
+}
+.gallery .size-24 {
+  grid-column: span 3;
+  grid-row: span 4;
+  z-index: 10;
+}
+.gallery .size-25 {
+  grid-column: span 12;
+  grid-row: span 15;
+  z-index: 10;
+}
 .gallery > div > a {
   opacity: 0;
   position: absolute;
@@ -1200,7 +1232,8 @@ a:focus {
   filter: grayscale(1);
   object-fit: cover;
 }
-#gallery4 > div > img {
+#gallery4 > div > img,
+#gallery5 > div > img {
   filter: grayscale(0);
 }
 .gallery > div:hover img {
