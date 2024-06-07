@@ -21,18 +21,23 @@
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
 
+  <!-- lightbox arrival_gallery-->
+  <link rel="stylesheet" href="css/ekko-lightbox.css" />
+
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
+
+  <link href="css/style.scss" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
 </head>
 
-<body>
+<body style="background-color: black;">
 
-  <!-- header section strats -->
+    <!-- header section strats -->
   <header class="header_section innerpage_header">
     <div class="header">
       <div class="container">
@@ -41,109 +46,62 @@
       <div class="nav_container">
         <div class="nav">
           <a href="about.html">about</a>
-          <a href="projects.html" id="selected">projects</a>
-          <a href="contact.html">contact</a>
+          <a href="projects.html">projects</a>
+          <a href="contact.html" id="selected">contact</a>
         </div>
         </div>
   </header>
   <!-- end header section -->
 
-
-  <!-- about section -->
-
-  <section class="about_section layout_padding project_about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h1 class="project_name">through colour</h1>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
+  <!-- hero section -->
+  <section class="hero_section position-relative" style="margin-top: 210px; padding: 50px;">
+    <div id="customArrival1" class="arrival slide" data-ride="arrival">
+      <div class="arrival-inner">
+        <div class="arrival-item active">
+          <div class="img_container">
+            <div class="img-box">
+              <img src="images/background_index.jpg" class="" alt="...">
             </div>
-            <p>
-                This work investigates the uncertain effects of light leaks in a series of whimsical portraits that use saturated lights and wide-angle lenses.
           </div>
         </div>
       </div>
     </div>
+    <div class="detail-box">
+      <div class="col-md-8 col-lg-6 mx-auto">
+        <div class="inner_detail-box" id="contact-box">
+            <h1 style="text-align: center;">contact form</h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- ACCESS KEY -->
+                <input type="hidden" name="access_key" value="28bc8df2-713e-450e-98c1-279e1302c2fa">
+
+                <label for="fname">Full Name</label>
+                <input class="contact" id="fname" type="text" name="name" placeholder="Your Name">
+
+                <label for="email">Email</label>
+                <input class="contact" id="email" type="email" name="email" placeholder="Your Email Address">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="canada">Canada</option>
+                    <option value="united states">United States</option>
+                    <option value="philippines">Philippines</option>
+                    <option value="other">Other</option>
+                </select>
+            
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" style="height:180px"></textarea>
+            
+                <input class="contact" type="submit" value="Submit">
+              </form>
+        </div>
+      </div>
+    </div>
   </section>
+  <!-- end hero section -->
 
-  <!-- end about section -->
-
-
-  <!-- sa palipinas gallery section -->
-<div class="container" id="id1">
-  <div class="gallery" id="gallery4">
-    <div class="size-17"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_03.jpg"/><a href="#lightbox-1"></a></div>
-    <div class="size-11"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_07.jpg"/><a href="#lightbox-2"></a></div>
-    <div class="size-11"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_04.jpg"/><a href="#lightbox-3"></a></div>
-    <div class="size-8"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_02.jpg"/><a href="#lightbox-4"></a></div>
-    <div class="size-18"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_08.jpg"/><a href="#lightbox-5"></a></div>
-
-    <div class="size-19"><img src="images/THROUGH COLOUR/02.jpg"/><a href="#lightbox-6"></a></div>
-    <div class="size-20"><img src="images/THROUGH COLOUR/RANZ_CL_PJ_03.jpg"/><a href="#lightbox-7"></a></div>
-    <div class="size-21"><img src="images/THROUGH COLOUR/RANZ_CL_PJ_05.jpg"/><a href="#lightbox-8"></a></div>
-    <div class="size-20"><img src="images/THROUGH COLOUR/RANZ_CL_PJ_01.jpg"/><a href="#lightbox-9"></a></div>
-    <div class="size-13"><img src="images/THROUGH COLOUR/RANZ_CL_PJ_04_eidted.jpg"/><a href="#lightbox-10"></a></div>
-  </div>
-
-  <div class="lightbox" id="lightbox-1">
-    <div class="content"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_03.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-  <div class="lightbox" id="lightbox-2">
-    <div class="content"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_07.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-  <div class="lightbox" id="lightbox-3">
-    <div class="content"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_04.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-  <div class="lightbox" id="lightbox-4">
-    <div class="content"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_02.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-  <div class="lightbox" id="lightbox-5">
-    <div class="content"><img src="images/THROUGH COLOUR/RANZ_COLOUR_23_08.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-
-
-  <div class="lightbox" id="lightbox-6">
-    <div class="content"><img src="images/THROUGH COLOUR/02.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-  <div class="lightbox" id="lightbox-7">
-    <div class="content"><img src="images/THROUGH COLOUR/RANZ_CL_PJ_03.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-  <div class="lightbox" id="lightbox-8">
-    <div class="content"><img src="images/THROUGH COLOUR/RANZ_CL_PJ_05.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-  <div class="lightbox" id="lightbox-9">
-    <div class="content"><img src="images/THROUGH COLOUR/RANZ_CL_PJ_01.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-  <div class="lightbox" id="lightbox-10">
-    <div class="content"><img src="images/THROUGH COLOUR/RANZ_CL_PJ_04_eidted.jpg"/>
-      <a class="close" href="#gallery"></a>
-    </div>
-  </div>
-</div>
-
-  <!-- end sa palipinas section -->
-
+  <!-- contact section -->
+  
+  <!-- end contact section -->
 
   <!-- info section -->
   <section class="info_section ">
@@ -219,6 +177,8 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
+  <!-- lightbox arrival_gallery-->
+  <script src="js/ekko-lightbox.min.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
 
