@@ -37,22 +37,6 @@
 
 <body style="background-color: black;">
 
-    <!-- header section strats -->
-  <header class="header_section innerpage_header">
-    <div class="header">
-      <div class="container">
-        <div class="logo"><a href="index.html">ranz bontogon</a></div>
-      </div>
-      <div class="nav_container">
-        <div class="nav" style="text-decoration: none;">
-          <a href="about.html">about</a>
-          <a href="projects.html">projects</a>
-          <a href="contact.html" id="selected">contact</a>
-        </div>
-        </div>
-  </header>
-  <!-- end header section -->
-
   <!-- hero section -->
   <section class="hero_section position-relative" style="padding: 50px 0;">
     <div id="customArrival1" class="arrival slide" data-ride="arrival">
@@ -69,35 +53,11 @@
     <div class="detail-box">
       <div class="col-md-8 col-lg-6 mx-auto">
         <div class="inner_detail-box" id="contact-box">
-            <h1 style="text-align: center;">contact form</h1>
-            <form name="contact-form" action="https://api.web3forms.com/submit" method="POST">
-                
-                <!-- ACCESS KEY -->
-                <input type="hidden" name="access_key" value="28bc8df2-713e-450e-98c1-279e1302c2fa">
-
-                <label for="fname">Full Name</label>
-                <input class="contact" id="fname" type="text" name="name" placeholder="Your Name" required>
-
-                <label for="email">Email</label>
-                <input class="contact" id="email" type="email" name="email" placeholder="Your Email Address" required>
-            
-                <label for="country">Country</label>
-                <select id="country" name="country" required>
-                    <option value="Canada">Canada</option>
-                    <option value="United States">United States</option>
-                    <option value="Philippines">Philippines</option>
-                    <option value="Other">Other</option>
-                </select>
-            
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Your Message" style="height:180px" required></textarea>
-
-                <input type="hidden" name="redirect" value="https://ranz-bontogon.anthonyarseneau.ca/contact-thank-you.html">
-
-                <input type="hidden" name="from_name" value="Contact Submission">
-
-                <input class="contact" type="submit" value="Submit">
-              </form>
+            <h1 style="text-align: center;">Thank you!</h1>
+            <p style="text-align: center;">Form has been sent successfully.</p>
+            <div style="width: 50%; transform: translateX(100%);">
+              <a href="index.html"><button class="hero-link" style="margin-top: 10px; transform: translateX(-50%);">Go Back</button></a>
+            </div>
         </div>
       </div>
     </div>
