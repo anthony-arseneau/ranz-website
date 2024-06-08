@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+header a:hover {
+  color: #fff;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
