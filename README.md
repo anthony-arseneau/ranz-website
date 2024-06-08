@@ -1,7 +1,7 @@
 # Ranz Jaren Tayo Bontogon - Website Portfolio
 
 ## Overview
-This repository contains the source code for a website portfolio created by Anthony Arseneau to showcase the work and biography of the emerging artist Ranz Jaren Tayo Bontogon. The portfolio aims to provide visitors with insights into Ranz's artistic journey, projects, and contact information.
+This repository contains the source code for a website portfolio created by Anthony Arseneau to showcase the work and biography of the emerging artist Ranz Jaren Tayo Bontogon. The portfolio aims to provide visitors with insights into Ranz's artistic journey, projects, and contact information. The website is self hosted on personal author's server.
 
 ## Features
 - **About Section:** Presents a brief biography of Ranz, highlighting his background, artistic vision, and cultural influences.
