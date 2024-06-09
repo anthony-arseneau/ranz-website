@@ -366,7 +366,7 @@ a:focus {
 }
 
 .hero_section .img-box img {
-  min-width: 100%;
+  min-width: 100vw;
   min-height: 100%;
 }
 
