@@ -13,6 +13,7 @@ This repository contains the source code for a website portfolio created by Anth
 - HTML
 - CSS
 - JavaScript
+- Personal Server
 
 ## How to Use
 1. Visit [ranz-bontogon.com](ranz-bontogon.com) to see this website.
