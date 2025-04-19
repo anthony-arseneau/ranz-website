@@ -302,6 +302,8 @@ a:focus {
   position: relative;
   text-align: center;
   padding: 30px 0 200px 0;
+  height: 100vh; /* Make hero section fill screen */
+  overflow: hidden;
 }
 
 .hero_section #customArrival1 {
@@ -335,6 +337,18 @@ a:focus {
   position: relative;
   width: 100%;
   z-index: 4;
+}
+
+.background-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100vh;
+  width: auto;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover; /* optional - keeps aspect ratio and fills area */
+  z-index: 1;
 }
 
 .hero_section .detail-box .inner_detail-box {
