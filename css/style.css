@@ -397,23 +397,20 @@ a:focus {
   color: #fff;
   margin-top: 15px;
   margin-bottom: 30px;
-  text-align: justify;
+  text-align: left;
 }
 
 .about_section .detail-box a {
-  display: inline-block;
-  padding: 10px 45px;
-  background-color: #fff;
-  color: #000;
-  border-radius: 5px;
-  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: underline;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #fff;
+  color: #aaa;
+  text-decoration: none;
 }
 
 .arrival_gallery {
@@ -729,6 +726,11 @@ input[type=submit]:hover {
 
 .info_section h4 {
   margin-bottom: 15px;
+}
+
+.tab {
+  display: inline-block;
+  padding-left: 2em;
 }
 
 .info_section .info_contact a {
@@ -1246,6 +1248,14 @@ input[type=submit]:hover {
 
 .project_name {
   text-align: center;
+}
+
+h1 i {
+  font-family: 'Helveltica';
+}
+
+h1 .yellow {
+  color: #fcb040;
 }
 
 .yellow {
