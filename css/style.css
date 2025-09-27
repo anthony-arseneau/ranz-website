@@ -877,9 +877,6 @@ input[type=submit]:hover {
   color: #aaa;
 }
 
-
-
-
 .projects_container a figure img {
   width: 300px;
   height: 300px;
@@ -908,10 +905,6 @@ input[type=submit]:hover {
   align-items: center;
   margin-bottom: 80px;
 }
-
-
-
-
 
 ::-webkit-scrollbar {
   width: 1px;
