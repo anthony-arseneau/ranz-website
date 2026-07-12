@@ -5,12 +5,14 @@ import Footer from '../components/Footer';
 import ProgressiveImage from '../components/ProgressiveImage';
 import Lightbox from '../components/Lightbox';
 import { useSite } from '../lib/useSite';
+import { useColumns } from '../lib/useColumns';
 import { LinkIcon } from '../components/icons';
 
 export default function ProjectDetail() {
   const { id } = useParams();
   const { data, loading } = useSite();
   const [lightbox, setLightbox] = useState<number | null>(null);
+  const columnCount = useColumns();
 
   const project = data?.projects.find((p) => p.id === id);
 
@@ -67,21 +69,28 @@ export default function ProjectDetail() {
             </div>
 
             <div className="masonry">
-              {project.images.map((img, i) => (
-                <div
-                  key={img.id}
-                  className="masonry__item"
-                  onClick={() => setLightbox(i)}
-                  role="button"
-                  tabIndex={0}
-                  onKeyDown={(e) => e.key === 'Enter' && setLightbox(i)}
-                >
-                  <ProgressiveImage
-                    src={`/${img.thumb}`}
-                    placeholder={img.lqip}
-                    aspect={img.aspect}
-                    alt={project.title}
-                  />
+              {Array.from({ length: columnCount }, (_, col) => (
+                <div className="masonry__col" key={col}>
+                  {project.images
+                    .map((img, index) => ({ img, index }))
+                    .filter(({ index }) => index % columnCount === col)
+                    .map(({ img, index }) => (
+                      <div
+                        key={img.id}
+                        className="masonry__item"
+                        onClick={() => setLightbox(index)}
+                        role="button"
+                        tabIndex={0}
+                        onKeyDown={(e) => e.key === 'Enter' && setLightbox(index)}
+                      >
+                        <ProgressiveImage
+                          src={`/${img.thumb}`}
+                          placeholder={img.lqip}
+                          aspect={img.aspect}
+                          alt={project.title}
+                        />
+                      </div>
+                    ))}
                 </div>
               ))}
             </div>

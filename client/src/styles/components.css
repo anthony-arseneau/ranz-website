@@ -493,24 +493,20 @@ textarea.field {
   }
 }
 
-/* ---- Masonry gallery ---- */
+/* ---- Masonry gallery (row-major order: left→right, top→bottom) ---- */
 .masonry {
-  columns: 3;
-  column-gap: 14px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
 }
-@media (max-width: 900px) {
-  .masonry {
-    columns: 2;
-  }
-}
-@media (max-width: 560px) {
-  .masonry {
-    columns: 1;
-  }
+.masonry__col {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 .masonry__item {
-  break-inside: avoid;
-  margin-bottom: 14px;
   border-radius: 8px;
   overflow: hidden;
   cursor: zoom-in;
