@@ -3,6 +3,7 @@ node_modules/
 
 # build output
 client/dist/
+*.tsbuildinfo
 
 # runtime / env
 .env
