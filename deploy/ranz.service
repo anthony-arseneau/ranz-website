@@ -1,0 +1,25 @@
+[Unit]
+Description=Ranz Bontogon portfolio (Node API + admin + media)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/ranz-website/server
+# Use the absolute path to node on your server: run `which node` and paste it here.
+ExecStart=/usr/bin/node src/index.js
+Restart=on-failure
+RestartSec=3
+
+# --- Environment: CHANGE these two before starting ---
+Environment=NODE_ENV=production
+Environment=PORT=3001
+Environment=ADMIN_PASSWORD=change-this-admin-password
+Environment=JWT_SECRET=change-this-to-a-long-random-string
+
+# Run as the web user so uploads can be written. Make sure this user owns the
+# repo:  sudo chown -R www-data:www-data /var/www/ranz-website
+User=www-data
+Group=www-data
+
+[Install]
+WantedBy=multi-user.target
