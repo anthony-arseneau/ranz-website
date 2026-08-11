@@ -1,0 +1,15 @@
+{
+  "name": "ranz-website",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Ranz Bontogon photography portfolio — React client + Express API with an admin editor and a one-time image compression pipeline.",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "precompress": "npm --prefix server run precompress",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "setup": "npm run install:all && npm run precompress && npm run build"
+  }
+}

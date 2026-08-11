@@ -1,0 +1,23 @@
+{
+  "name": "ranz-website-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API + image pipeline for the Ranz Bontogon portfolio",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "precompress": "node scripts/precompress.mjs",
+    "seed": "node scripts/precompress.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.4"
+  }
+}

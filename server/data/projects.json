@@ -1,0 +1,480 @@
+{
+  "projects": [
+    {
+      "id": "the-globe-and-mail",
+      "title": "Neighbours in New Brunswick",
+      "caption": "The Globe and Mail's Underexposed series on the Filipino community finding their place in the Acadian town of Shediac, the lobster capital of the world. Photo and story by Ranz Bontogon.",
+      "link": "",
+      "cover": "8810ec6de56254f2",
+      "order": 0,
+      "images": [
+        {
+          "id": "24c2e886a546a28e"
+        },
+        {
+          "id": "d7ba24df5a6dd793"
+        },
+        {
+          "id": "155bf16b88eac5e5"
+        },
+        {
+          "id": "ed3f1dbe7fc39761"
+        },
+        {
+          "id": "55f31c773c0cd00c"
+        },
+        {
+          "id": "8997349d6ce78db4"
+        },
+        {
+          "id": "9eacc768889146bc"
+        },
+        {
+          "id": "8109163cb082c5b7"
+        },
+        {
+          "id": "5f016c3845d275e6"
+        },
+        {
+          "id": "2eb0c5c1b8965c39"
+        },
+        {
+          "id": "b6a412baaa633938"
+        },
+        {
+          "id": "a6750a6a8e56a8ef"
+        },
+        {
+          "id": "13f0215721fb5727"
+        },
+        {
+          "id": "0db0dbfe92ee07d6"
+        },
+        {
+          "id": "4daf3a469cd6f661"
+        },
+        {
+          "id": "809e8db9a44bbdc5"
+        },
+        {
+          "id": "f057f48ec6f61d10"
+        },
+        {
+          "id": "a2412369c41b9c1c"
+        },
+        {
+          "id": "39685d3fb75247e5"
+        },
+        {
+          "id": "cd713e89cd1d6471"
+        },
+        {
+          "id": "c1e2e55872a4a11a"
+        },
+        {
+          "id": "11682b33f354dff6"
+        },
+        {
+          "id": "b0c9a6af2232aa3f"
+        },
+        {
+          "id": "beec2bc8e8b6db56"
+        },
+        {
+          "id": "2d7c9e4e3546e190"
+        },
+        {
+          "id": "1d924d3bf4baa936"
+        }
+      ]
+    },
+    {
+      "id": "filipinos-of-nb",
+      "title": "Filipinos of New Brunswick",
+      "caption": "In the past few years, the Filipino population in New Brunswick has greatly increased, bringing more multicultural events that reflect our traditions, adding more colour to the Picture Province, and inviting curiosity about our culture. Filipinos of New Brunswick is a story piece for CBC that explores Filipino’s personal experiences and relational philosophy of “Bayanihan” meaning community cooperation, showing how these traditions are practiced across the province. Underlining how cultural heritage is preserved and shared in a land far from our own, while emphasizing the intersections of Filipino and New Brunswick identities, building a bridge to connect cultures through photographs.",
+      "link": "https://www.cbc.ca/newsinteractives/features/filipinos-of-new-brunswick",
+      "cover": "519c0713a0a89a02",
+      "order": 1,
+      "images": [
+        {
+          "id": "3e7539eed588bf15"
+        },
+        {
+          "id": "41141adb04840a6e"
+        },
+        {
+          "id": "7e8813b707fbc65c"
+        },
+        {
+          "id": "5d690d0469ab10e4"
+        },
+        {
+          "id": "07780e79c51be85b"
+        },
+        {
+          "id": "e375b1c096b91c93"
+        },
+        {
+          "id": "3aa7e217158a9c25"
+        },
+        {
+          "id": "6c6dbb6bbf307e68"
+        },
+        {
+          "id": "33eba49436570d3e"
+        },
+        {
+          "id": "de8aa644a2975b9a"
+        },
+        {
+          "id": "ee7b0391f30f0086"
+        },
+        {
+          "id": "4caaf235298a3345"
+        },
+        {
+          "id": "3dba5e9d137281ef"
+        },
+        {
+          "id": "7c1ac148c6054058"
+        },
+        {
+          "id": "ff01ede8fdcbcf2c"
+        }
+      ]
+    },
+    {
+      "id": "sa-pilipinas",
+      "title": "Sa Pilipinas",
+      "caption": "Sa Pilipinas is a 132 paged photo book about Filipino Culture, a project funded by Marjorie Young Bell.",
+      "link": "",
+      "cover": "7a4c981329716da2",
+      "order": 2,
+      "images": [
+        {
+          "id": "e52f04b05ca6f087"
+        },
+        {
+          "id": "4d9e6fa490885763"
+        },
+        {
+          "id": "0d5310ec1349471c"
+        },
+        {
+          "id": "b1e9c5c85265b1f9"
+        },
+        {
+          "id": "d6952245ebf4b5a2"
+        },
+        {
+          "id": "be31c7e424fa8f29"
+        },
+        {
+          "id": "7a4c981329716da2"
+        }
+      ]
+    },
+    {
+      "id": "argosy",
+      "title": "Argosy",
+      "caption": "Argosy Team 2023-2024, a series of images taken by me.",
+      "link": "",
+      "cover": "5235196cb01464e8",
+      "order": 3,
+      "images": [
+        {
+          "id": "196caa6cc2faabbb"
+        },
+        {
+          "id": "930360848b976a2d"
+        },
+        {
+          "id": "0653af5a9e8b9941"
+        },
+        {
+          "id": "772bc4c74c4e70e3"
+        },
+        {
+          "id": "c9dcf14afe8cf461"
+        },
+        {
+          "id": "c7b67c42184e9267"
+        },
+        {
+          "id": "238c720438ca0062"
+        },
+        {
+          "id": "e1da271ae21b8f14"
+        },
+        {
+          "id": "e87fd39af6c4d8ec"
+        },
+        {
+          "id": "5a89c6259b381cb6"
+        },
+        {
+          "id": "57d5c7a9ca027dd4"
+        },
+        {
+          "id": "b5f1b6bc5c37fb75"
+        },
+        {
+          "id": "177693c2f63797d3"
+        },
+        {
+          "id": "5a5619f53a22e196"
+        },
+        {
+          "id": "f2fbdc401b8b2a9b"
+        },
+        {
+          "id": "dabae9418c9fd435"
+        },
+        {
+          "id": "393b183dcde89fae"
+        },
+        {
+          "id": "9ce53411e9985ee7"
+        },
+        {
+          "id": "69543111e123fe51"
+        },
+        {
+          "id": "69dc9929100ca79d"
+        }
+      ]
+    },
+    {
+      "id": "strangers-at-home",
+      "title": "Strangers at Home",
+      "caption": "Ranz & Mackenzie explore tension between their present experiences and longing memories, making them feel like strangers in their delicate homeland. Captured through the lens of 35mm and medium format black and white photography, this work presents the return of Ranz to the Philippines after 10 years and Mackenzie after 4 years. The exhibition narrates tales of home, tradition, and intimate personal evolutions. After being away for so long, can they really call it home?",
+      "link": "",
+      "cover": "8154a8673c9b1a34",
+      "order": 4,
+      "images": [
+        {
+          "id": "de5bfe2b5bd3f7b9"
+        },
+        {
+          "id": "496370f4c585e5d7"
+        },
+        {
+          "id": "302c439e280f28cb"
+        },
+        {
+          "id": "db8d28f4c3b1cda6"
+        },
+        {
+          "id": "1bebbb507dd4ed8c"
+        },
+        {
+          "id": "936ca19bf9566182"
+        },
+        {
+          "id": "b3eaa308b2cf6a82"
+        },
+        {
+          "id": "2908765037e70f89"
+        },
+        {
+          "id": "2c7b005c517aa053"
+        },
+        {
+          "id": "c49401429c8bd82b"
+        },
+        {
+          "id": "7395ad8ea5620873"
+        },
+        {
+          "id": "68be68e7196c75c3"
+        },
+        {
+          "id": "1b612ad0203e5dbc"
+        }
+      ]
+    },
+    {
+      "id": "through-colour",
+      "title": "Through Colour",
+      "caption": "This work investigates the uncertain effects of light leaks in a series of whimsical portraits that use saturated lights and wide-angle lenses.",
+      "link": "",
+      "cover": "3aa748bc33ae4079",
+      "order": 5,
+      "images": [
+        {
+          "id": "81687e9ed0f94e31"
+        },
+        {
+          "id": "3d0f1c9d8fb724bf"
+        },
+        {
+          "id": "ecc714b293065a12"
+        },
+        {
+          "id": "0467f04bdb5bb3d3"
+        },
+        {
+          "id": "0356700fe3a81eb6"
+        },
+        {
+          "id": "5d365780aba9e695"
+        },
+        {
+          "id": "f7cefb2e0a283eb3"
+        },
+        {
+          "id": "a57cd8ccec225891"
+        },
+        {
+          "id": "4b9179f2fb1cc872"
+        },
+        {
+          "id": "08b22a1c08013b15"
+        }
+      ]
+    },
+    {
+      "id": "fundy",
+      "title": "45.60031 N, 64.95127 W",
+      "caption": "A series of photos taken in the Bay of Fundy shortly after Hurricane Fiona hit the Maritimes.",
+      "link": "",
+      "cover": "6f98768f476ae58a",
+      "order": 6,
+      "images": [
+        {
+          "id": "7f4f8c9114de9435"
+        },
+        {
+          "id": "da5bb682cbd49756"
+        },
+        {
+          "id": "1eca42d5e1a5bd98"
+        },
+        {
+          "id": "1a5e2ecda80e0992"
+        },
+        {
+          "id": "71b3b4457c5b930c"
+        },
+        {
+          "id": "f1bb193629db6a41"
+        },
+        {
+          "id": "11e9e57b6e9b838f"
+        },
+        {
+          "id": "a50748ffe3423ffa"
+        },
+        {
+          "id": "ad474f42229624fe"
+        },
+        {
+          "id": "9b3815202fe6c768"
+        }
+      ]
+    },
+    {
+      "id": "silver-halide-dreams",
+      "title": "Silver Halide Dreams",
+      "caption": "This body of work explores beyond the limited capacity of 35mm films. Conceptual and surreal images are expressed through a series of double exposures and contact sheets that form a full image.",
+      "link": "",
+      "cover": "ad9b925d11292933",
+      "order": 7,
+      "images": [
+        {
+          "id": "5311bb2a079ad801"
+        },
+        {
+          "id": "a3d9ece1d2775e3a"
+        },
+        {
+          "id": "bfa45b0c08c49ee3"
+        },
+        {
+          "id": "917e3799e0d75e0a"
+        },
+        {
+          "id": "79bfb784f72b32a8"
+        },
+        {
+          "id": "c19a9f7c112d2319"
+        },
+        {
+          "id": "fd3386f55937dfa3"
+        },
+        {
+          "id": "9921ddd8eabfd2d8"
+        },
+        {
+          "id": "ad9b925d11292933"
+        },
+        {
+          "id": "f399cfc045e9a25b"
+        },
+        {
+          "id": "96cb9d9377ee8a47"
+        }
+      ]
+    }
+  ],
+  "mosaic": [
+    {
+      "id": "c4731392e4794759",
+      "projectId": "strangers-at-home"
+    },
+    {
+      "id": "79bfb784f72b32a8",
+      "projectId": "silver-halide-dreams"
+    },
+    {
+      "id": "be31c7e424fa8f29",
+      "projectId": "sa-pilipinas"
+    },
+    {
+      "id": "bfa45b0c08c49ee3",
+      "projectId": "silver-halide-dreams"
+    },
+    {
+      "id": "2c7b005c517aa053",
+      "projectId": "strangers-at-home"
+    },
+    {
+      "id": "a190da1ce3c67f43",
+      "projectId": "silver-halide-dreams"
+    },
+    {
+      "id": "9f10da88c39e145d",
+      "projectId": "silver-halide-dreams"
+    },
+    {
+      "id": "7f4f8c9114de9435",
+      "projectId": "fundy"
+    },
+    {
+      "id": "a634f0d2cbfbc95c",
+      "projectId": "strangers-at-home"
+    },
+    {
+      "id": "d6952245ebf4b5a2",
+      "projectId": "sa-pilipinas"
+    },
+    {
+      "id": "33ebfa46cfa07551",
+      "projectId": "silver-halide-dreams"
+    },
+    {
+      "id": "4ec06041f3c62e61",
+      "projectId": "silver-halide-dreams"
+    },
+    {
+      "id": "936ca19bf9566182",
+      "projectId": "strangers-at-home"
+    },
+    {
+      "id": "fd752580ca7260a5",
+      "projectId": "silver-halide-dreams"
+    }
+  ],
+  "profile": "61b4af6d2ecbe17a",
+  "background": "15efe222741d8ad2"
+}
